@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { applyMiddleware, createStore } from 'redux';
 import './index.css';
-import { logger } from 'redux-logger';
+import { logger } from 'redux-logger/src';
 import Thunk from 'redux-thunk';
 import { rootReducer } from './reducer';
 import * as serviceWorker from './serviceWorker';
